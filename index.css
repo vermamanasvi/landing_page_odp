@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+.parent-container{
+    height: 600px;
+    margin: 0;
+    background-color: #1F2937;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+}
+#logo{
+    height: 90px;
+    padding-left: 20px;
+}
+.right-links{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
