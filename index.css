@@ -123,14 +123,14 @@ a{
     font-size: 36px;
     color: #1F2937;
     font-family: 'Montserrat', sans-serif;
-    border-radius: 25px;
+    border-radius: 20px;
     text-align: center;
 
 }
-/* .quote{
-    padding-bottom: 20px;
+.quote{
+    padding-top: 25px;
 
-} */
+} 
 .Dogesh{
     font-size: medium;
     display: flex;
@@ -141,5 +141,36 @@ a{
     font-weight:bolder;
     text-align: right;
     padding-right: 50px;
-    
+    padding-bottom: 20px; ;
+}
+.container-4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    background-color: #243551;
+    padding: 25px;
+    width: 900px;
+    margin: 50px;
+    border-radius: 10px;
+}
+.blueblue{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* this is done to center the blue box */
+} 
+.blue-container{
+    max-width: 500px;
+    color: #F9FAF8;
+}
+.button-2{
+    background-color: #3882F6;
+    /* padding:10px;
+    padding-left: 25px;
+    padding-right: 25px;  */
+    font-size: medium;
+    border-radius: 5px;
+    color:#F9FAF8;
+    height: 50px;
+    width: 110px;
 }
