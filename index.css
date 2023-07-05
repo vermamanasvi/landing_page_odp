@@ -74,7 +74,6 @@ a{
     color:#F9FAF8;
 }
 .container-2{
-    /**/
     margin:none;
 }
 .heading-2{
@@ -111,13 +110,8 @@ a{
 .img-caption{
     padding-top: 10px;
 }
-.container-3{
-    /* display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;  */
+.container-3{   
     margin-top: 30px;
-    /* padding: 20px; */
     font-style:italic;
     background-color: #D3D3D3;
     font-size: 36px;
@@ -125,11 +119,9 @@ a{
     font-family: 'Montserrat', sans-serif;
     border-radius: 20px;
     text-align: center;
-
 }
 .quote{
     padding-top: 25px;
-
 } 
 .Dogesh{
     font-size: medium;
@@ -173,4 +165,17 @@ a{
     color:#F9FAF8;
     height: 50px;
     width: 110px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #32486c;
+    height: 80px;
+}
+.reddit-link{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    color:black;
 }
